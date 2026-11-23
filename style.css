@@ -2490,6 +2490,18 @@ img {
     border-radius: 50%;
     background: #111;
     color: #fff;
+    text-decoration: none;
+    transition: background-color .2s, transform .2s;
+}
+
+.contact-social-icon:hover {
+    transform: translateY(-2px);
+    background: #333;
+}
+
+.contact-social-icon:focus-visible {
+    outline: 2px solid var(--orange-dark);
+    outline-offset: 3px;
 }
 
 .contact-social-icon svg {
