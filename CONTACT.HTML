@@ -31,26 +31,53 @@
         </div>
     </header>
 
-    <main class="information-page">
-        <section class="page-hero">
-            <p class="eyebrow">CONTACT US</p>
-            <h1>Talk to Divine Technologies</h1>
-            <p>Contact us for product details, specifications, pricing and availability.</p>
-        </section>
-        <section class="contact-grid">
-            <div class="information-panel">
-                <h2>Visit or Call</h2>
-                <p>Thalassery, Kannur, Kerala</p>
-                <p><a href="tel:+919645490736">+91 96454 90736</a></p>
-                <p><a href="mailto:info@divinetech.co.in">info@divinetech.co.in</a></p>
+    <main class="contact-page">
+        <section class="contact-card" aria-labelledby="contact-title">
+            <div class="contact-details">
+                <p class="eyebrow">CONTACT DIVINE TECHNOLOGIES</p>
+                <h1 id="contact-title">Get in touch</h1>
+                <p class="contact-intro">Questions about billing machines, software or support? We’re here to help.</p>
+
+                <div class="contact-info">
+                    <div class="contact-info-item">
+                        <span>Email</span>
+                        <a href="mailto:info@divinetech.co.in">info@divinetech.co.in</a>
+                    </div>
+                    <div class="contact-info-item">
+                        <span>Phone</span>
+                        <a href="tel:+919645490736">+91 96454 90736</a>
+                    </div>
+                    <div class="contact-info-item">
+                        <span>Address</span>
+                        <p>Thalassery, Kannur, Kerala</p>
+                    </div>
+                    <div class="contact-info-item">
+                        <span>WhatsApp</span>
+                        <a href="#" data-whatsapp="Hello Divine Technologies, I would like to get in touch.">
+                            Message us on WhatsApp <i data-lucide="arrow-up-right" aria-hidden="true"></i>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="information-panel">
-                <h2>WhatsApp Enquiry</h2>
-                <p>Send us a message and include the product name you are asking about.</p>
-                <a href="#" class="button whatsapp-button" data-whatsapp="Hello Divine Technologies, I would like to enquire about your products.">
-                    <i data-lucide="message-circle"></i> Enquire on WhatsApp
-                </a>
-            </div>
+
+            <form class="contact-form" data-contact-form>
+                <div class="contact-form-row">
+                    <label for="contactName">
+                        Your name
+                        <input id="contactName" name="name" type="text" autocomplete="name" placeholder="Your full name" required>
+                    </label>
+                    <label for="contactEmail">
+                        Email address
+                        <input id="contactEmail" name="email" type="email" autocomplete="email" placeholder="Your email address" required>
+                    </label>
+                </div>
+                <label for="contactMessage">
+                    Message
+                    <textarea id="contactMessage" name="message" rows="5" placeholder="Write your message..." required></textarea>
+                </label>
+                <button type="submit">Send Message</button>
+                <p class="contact-form-note">Your details will be added to a WhatsApp message for you to send.</p>
+            </form>
         </section>
     </main>
 

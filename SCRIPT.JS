@@ -448,6 +448,33 @@ function bindProductEnquiryLinks(root = document) {
     });
 }
 
+function initializeContactForm() {
+    const form = document.querySelector("[data-contact-form]");
+    if (!form) {
+        return;
+    }
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const formData = new FormData(form);
+        const name = String(formData.get("name") || "").trim();
+        const email = String(formData.get("email") || "").trim();
+        const message = String(formData.get("message") || "").trim();
+        const enquiry = [
+            "Hello Divine Technologies, I would like to enquire.",
+            "",
+            `Name: ${name}`,
+            `Email: ${email}`,
+            "",
+            "Message:",
+            message
+        ].join("\n");
+
+        window.location.href = createWhatsAppURL(enquiry);
+    });
+}
+
 function initializeProductSpotlight() {
     const stage = document.querySelector("[data-product-spotlight]");
     if (!stage) {
@@ -722,6 +749,7 @@ document.addEventListener("DOMContentLoaded", function () {
     initializeBrandShowcase();
     initializeAboutReveal();
     bindProductEnquiryLinks();
+    initializeContactForm();
 
     const productMarquee = document.querySelector("[data-product-marquee]");
     const productTrack = productMarquee && productMarquee.querySelector(".product-track");
