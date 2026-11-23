@@ -1,0 +1,666 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Divine Technologies | Billing Machines & POS Systems</title>
+
+    <meta name="description" content="Explore billing machines, POS systems and business management software from Divine Technologies.">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Lucide Icons -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+
+        <div class="brand-panel">
+            <a href="INDEX.HTML">
+                <img src="IMAGES/LOGO.jpg"
+                     alt="Divine Technologies Logo">
+            </a>
+        </div>
+
+        <div class="header-content">
+
+            <button class="menu-toggle" id="menuToggle"
+                    aria-label="Toggle navigation">
+                <i data-lucide="menu"></i>
+            </button>
+
+            <nav class="navigation" id="navigation">
+                <a href="INDEX.HTML" class="active">Home</a>
+                <a href="SHOP.HTML">Shop</a>
+                <a href="BUSINESS-SOFTWARE.HTML">Business Software</a>
+                <a href="ABOUT.HTML">About Us</a>
+                <a href="CONTACT.HTML">Contact</a>
+            </nav>
+
+            <div class="header-actions">
+
+                <div class="search-box">
+                    <i data-lucide="search"></i>
+                    <input type="search"
+                           id="productSearch"
+                           placeholder="Search products...">
+                </div>
+
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ================= HERO SECTION ================= -->
+
+    <section class="hero cinematic-hero">
+        <div class="cinematic-shell">
+            <div class="cinematic-copy">
+                <h1>Technology that keeps <span>business moving.</span></h1>
+                <p>Discover dependable billing and POS equipment, selected from our product range.</p>
+                <div class="cinematic-actions">
+                    <a href="SHOP.HTML" class="button primary-button">
+                        <i data-lucide="search"></i>
+                        Explore Products
+                        <i data-lucide="arrow-right"></i>
+                    </a>
+                    <a href="#" class="button whatsapp-button"
+                       data-whatsapp="Hello Divine Technologies, I would like to know more about your products.">
+                        <img class="whatsapp-enquiry-icon"
+                             src="IMAGES/whatsapp.svg"
+                             alt="">
+                        Enquire on WhatsApp
+                    </a>
+                </div>
+            </div>
+
+            <div class="cinematic-stage" data-product-spotlight aria-label="Featured product">
+                <div class="cinematic-light" aria-hidden="true"></div>
+                <div class="cinematic-art" data-spotlight-art aria-hidden="true"></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= BENEFITS ================= -->
+
+    <section class="benefits">
+
+        <div class="benefits-inner">
+
+            <div class="benefit-item">
+                <i class="genuine-warranty-check-icon" data-lucide="badge-check"></i>
+                <span>Genuine Products<br>with Warranty</span>
+            </div>
+
+            <div class="benefit-item">
+                <i class="installation-support-wrench" data-lucide="wrench"></i>
+                <span>Installation &<br>Training Support</span>
+            </div>
+
+            <div class="benefit-item">
+                <i data-lucide="headset"></i>
+                <span>Responsive<br>After-Sales Service</span>
+            </div>
+
+            <div class="benefit-item">
+                <span class="secure-delivery-motion">
+                    <span class="secure-delivery-smoke" aria-hidden="true">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <i class="secure-delivery-truck" data-lucide="truck"></i>
+                </span>
+                <span>Secure<br>Delivery</span>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- ================= PRODUCTS ================= -->
+
+    <section class="products-section">
+
+        <div class="section-heading">
+
+            <div>
+                <div class="heading-inline">
+                    <h2>Popular Products</h2>
+                    <p>Explore our range of billing machines, POS systems and more.</p>
+                </div>
+            </div>
+
+            <a href="SHOP.HTML" class="view-all">
+                View All Products
+                <i data-lucide="arrow-right"></i>
+            </a>
+
+        </div>
+
+
+        <div class="products-layout">
+
+            <!-- FEATURED PRODUCT -->
+
+            <article class="featured-product">
+                <img class="featured-product-image"
+                     src="IMAGES/smart-pro-sp93.png"
+                     alt="Smart Pro SP93TB"
+                     loading="lazy"
+                     decoding="async">
+
+                <div class="featured-overlay">
+
+                    <span class="best-seller">
+                        ★ Best Seller
+                    </span>
+
+                    <h3>Smart Pro<br>SP93TB</h3>
+
+                    <div class="featured-price">
+                        <strong>₹17,000</strong>
+                        <del>₹17,500</del>
+                    </div>
+
+                    <div class="featured-actions">
+                        <a href="PRODUCT.HTML?product=smart-pro-sp93"
+                           class="button primary-button">
+                            View Details
+                            <i data-lucide="arrow-right"></i>
+                        </a>
+                        <a href="#" class="button whatsapp-button"
+                           data-product-enquiry="smart-pro-sp93">
+                            <img class="whatsapp-enquiry-icon"
+                                 src="IMAGES/whatsapp.svg"
+                                 alt="">
+                            Enquire on WhatsApp
+                        </a>
+                    </div>
+
+                </div>
+            </article>
+
+
+            <!-- SMALL PRODUCT CARDS -->
+
+            <div class="product-grid" data-product-marquee>
+                <div class="product-track">
+                    <div class="product-track-group">
+
+                <article class="product-card"
+                         data-name="Handheld Ticketing Machine">
+
+                    <a href="PRODUCT.HTML?product=handheld-ticketing"
+                       class="product-image"
+                       aria-label="View Handheld Ticketing Machine details">
+                        <img class="product-photo"
+                             src="IMAGES/handheld-ticketing.png"
+                             alt="Handheld Ticketing Machine"
+                             loading="lazy">
+                    </a>
+
+                    <h3><a href="PRODUCT.HTML?product=handheld-ticketing">Handheld Ticketing Machine</a></h3>
+
+                    <div class="price">
+                        <strong>₹9,500</strong>
+                        <del>₹11,000</del>
+                    </div>
+
+                    <div class="product-actions">
+                        <a href="PRODUCT.HTML?product=handheld-ticketing"
+                           class="more-info-button"
+                           aria-label="More info about Handheld Ticketing Machine">
+                            <svg class="whatsapp-brand-icon" viewBox="0 0 24 24"
+                                 aria-hidden="true" focusable="false">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+                            </svg>
+                            <span>More Info</span>
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="product-card"
+                         data-name="NUNIX Android Touch POS">
+
+                    <a href="PRODUCT.HTML?product=nunix-pos"
+                       class="product-image"
+                       aria-label="View NUNIX Android Touch POS details">
+                        <img class="product-photo"
+                             src="IMAGES/nunix-android-touch-pos.png"
+                             alt="NUNIX Android Touch POS"
+                             loading="lazy">
+                    </a>
+
+                    <h3><a href="PRODUCT.HTML?product=nunix-pos">NUNIX Android Touch POS</a></h3>
+
+                    <div class="price">
+                        <strong>₹41,250</strong>
+                        <del>₹55,000</del>
+                    </div>
+
+                    <div class="product-actions">
+                        <a href="PRODUCT.HTML?product=nunix-pos"
+                           class="more-info-button"
+                           aria-label="More info about NUNIX Android Touch POS">
+                            <svg class="whatsapp-brand-icon" viewBox="0 0 24 24"
+                                 aria-hidden="true" focusable="false">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+                            </svg>
+                            <span>More Info</span>
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="product-card"
+                         data-name="Palmtec Amphibia">
+
+                    <a href="PRODUCT.HTML?product=palmtec-amphibia"
+                       class="product-image"
+                       aria-label="View Palmtec Amphibia details">
+                        <img class="product-photo"
+                             src="IMAGES/palmtec-amphibia.png"
+                             alt="Palmtec Amphibia"
+                             loading="lazy">
+                    </a>
+
+                    <h3><a href="PRODUCT.HTML?product=palmtec-amphibia">Palmtec Amphibia</a></h3>
+
+                    <div class="price">
+                        <strong>₹10,500</strong>
+                        <del>₹12,000</del>
+                    </div>
+
+                    <div class="product-actions">
+                        <a href="PRODUCT.HTML?product=palmtec-amphibia"
+                           class="more-info-button"
+                           aria-label="More info about Palmtec Amphibia">
+                            <svg class="whatsapp-brand-icon" viewBox="0 0 24 24"
+                                 aria-hidden="true" focusable="false">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+                            </svg>
+                            <span>More Info</span>
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="product-card"
+                         data-name="Smart Pro SP92TB">
+
+                    <a href="PRODUCT.HTML?product=smart-pro-sp92"
+                       class="product-image"
+                       aria-label="View Smart Pro SP92TB details">
+                        <img class="product-photo"
+                             src="IMAGES/smart-pro-sp92.png"
+                             alt="Smart Pro SP92TB"
+                             loading="lazy">
+                    </a>
+
+                    <h3><a href="PRODUCT.HTML?product=smart-pro-sp92">Smart Pro SP92TB</a></h3>
+
+                    <div class="price">
+                        <strong>₹14,000</strong>
+                        <del>₹16,500</del>
+                    </div>
+
+                    <div class="product-actions">
+                        <a href="PRODUCT.HTML?product=smart-pro-sp92"
+                           class="more-info-button"
+                           aria-label="More info about Smart Pro SP92TB">
+                            <svg class="whatsapp-brand-icon" viewBox="0 0 24 24"
+                                 aria-hidden="true" focusable="false">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+                            </svg>
+                            <span>More Info</span>
+                        </a>
+                    </div>
+                </article>
+
+
+                <article class="product-card"
+                         data-name="Smart Pro SP93TB">
+
+                    <a href="PRODUCT.HTML?product=smart-pro-sp93"
+                       class="product-image"
+                       aria-label="View Smart Pro SP93TB details">
+                        <img class="product-photo"
+                             src="IMAGES/smart-pro-sp93.png"
+                             alt="Smart Pro SP93TB"
+                             loading="lazy">
+                    </a>
+
+                    <h3><a href="PRODUCT.HTML?product=smart-pro-sp93">Smart Pro SP93TB</a></h3>
+
+                    <div class="price">
+                        <strong>₹17,000</strong>
+                        <del>₹17,500</del>
+                    </div>
+
+                    <div class="product-actions">
+                        <a href="PRODUCT.HTML?product=smart-pro-sp93"
+                           class="more-info-button"
+                           aria-label="More info about Smart Pro SP93TB">
+                            <svg class="whatsapp-brand-icon" viewBox="0 0 24 24"
+                                 aria-hidden="true" focusable="false">
+                                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/>
+                            </svg>
+                            <span>More Info</span>
+                        </a>
+                    </div>
+                </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= BOTTOM SECTIONS ================= -->
+
+    <section class="bottom-sections">
+
+        <!-- BUSINESS SOFTWARE -->
+
+        <div class="software-card">
+
+            <div class="software-content">
+
+                <span class="eyebrow">BUSINESS SOFTWARE</span>
+
+                <h2>Complete Business<br>Management Software</h2>
+
+                <p>
+                    Billing, inventory, sales, reports and mobile access —
+                    all in one solution.
+                </p>
+
+                <a href="BUSINESS-SOFTWARE.HTML"
+                   class="button primary-button">
+                    Explore Software
+                    <i data-lucide="arrow-right"></i>
+                </a>
+
+            </div>
+
+            <div class="software-image">
+                <div class="software-image-stage" data-software-image-stage>
+                    <img src="IMAGES/billing-software-promo.png"
+                         alt="Billing software with Billing, Inventory, Accounting, GST Reports, and Online Store features displayed on a computer and phone"
+                         loading="lazy"
+                         decoding="async">
+                    <span class="software-feature-mask feature-1" data-software-feature-mask aria-hidden="true"></span>
+                    <span class="software-feature-mask feature-2" data-software-feature-mask aria-hidden="true"></span>
+                    <span class="software-feature-mask feature-3" data-software-feature-mask aria-hidden="true"></span>
+                    <span class="software-feature-mask feature-4" data-software-feature-mask aria-hidden="true"></span>
+                    <span class="software-feature-mask feature-5" data-software-feature-mask aria-hidden="true"></span>
+                </div>
+            </div>
+
+        </div>
+
+
+        <!-- ABOUT DIVINE -->
+
+        <div class="about-card">
+
+            <div class="about-content">
+
+                <span class="eyebrow">ABOUT DIVINE</span>
+
+                <h2>Established in 2012</h2>
+
+                <p>
+                    Over a decade of experience in providing reliable
+                    billing solutions, POS systems and business
+                    management software across Kannur, Kozhikode
+                    and Kasaragod.
+                </p>
+
+                <a href="ABOUT.HTML" class="button outline-button">
+                    Learn More
+                    <i data-lucide="arrow-right"></i>
+                </a>
+
+            </div>
+
+            <div class="about-image">
+                <img src="IMAGES/about-divine.jpg"
+                     alt="Interior of the Divine Technologies shop"
+                     loading="lazy"
+                     decoding="async">
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= TRUSTED BRANDS ================= -->
+
+    <section class="trusted-brands-section" data-brand-showcase aria-labelledby="trusted-brands-title">
+        <div class="trusted-brands-inner">
+            <h2 class="trusted-brands-heading" id="trusted-brands-title">Trusted brands we work with</h2>
+            <div class="trusted-brands-stage" role="list" aria-label="Client and institutional brands">
+                <div class="brand-bubble brand-bubble--ayt" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-ayt.webp" alt="AYT, Ayu Tex Art" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--kerala" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-ac-foods.webp" alt="Kerala institutional emblem" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--apsara" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-apsara.webp" alt="Apsara Bales" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--sunitha" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-sunitha-furniture.webp" alt="Sunitha Furniture" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--bold" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-bold-bright.webp" alt="Bold and Bright" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--espanshane" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-espanshane.webp" alt="ESPANSHANE" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--afc" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-afc.webp" alt="AFC, American Fried Chicken" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--adhya" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-adhya-fashion.webp" alt="Adhya Fashion" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--icrb" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-icrb.webp" alt="iCRB, Iritty Co-operative Rural Bank" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--kannur-bank" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-kannur-urban-bank.webp" alt="Kannur Urban Bank" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--tfsc" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-tfsc-bank.webp" alt="TFSC Bank, Trikkaripur P.O." loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--malayoram" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-malayoram-cooperative.webp" alt="Malayoram cooperative institution" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--payam" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-payam-bank.webp" alt="Payam Bank" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--mattannur" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-mattannur-urban-bank.webp" alt="Mattannur Co-operative Rural Bank" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--pappinissery" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-pappinissery-bank.webp" alt="Pappinissery cooperative bank" loading="lazy" decoding="async"></span>
+                </div>
+                <div class="brand-bubble brand-bubble--robins" role="listitem">
+                    <span class="brand-bubble-surface"><img src="IMAGES/brand-robins-peravoor.webp" alt="Robins Peravoor" loading="lazy" decoding="async"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ================= FLOATING CONTACT ================= -->
+
+    <div class="floating-contact">
+
+        <a href="#" class="float-whatsapp"
+           data-whatsapp="Hello Divine Technologies."
+           aria-label="Chat with Divine Technologies on WhatsApp">
+            <img src="IMAGES/whatsapp.svg" alt="">
+        </a>
+
+        <a href="tel:+919947123456" aria-label="Call Divine Technologies">
+            <i data-lucide="phone"></i>
+        </a>
+
+        <a href="CONTACT.HTML" aria-label="Contact us">
+            <i data-lucide="message-square"></i>
+        </a>
+
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+
+<!-- THERMAL RECEIPT TEAR -->
+<div class="receipt-tear" aria-hidden="true">
+    <svg viewBox="0 0 1440 24"
+         preserveAspectRatio="none"
+         xmlns="http://www.w3.org/2000/svg">
+
+        <path
+            d="M0 0 H1440 V13
+            L1434 15 L1429 12 L1423 17
+            L1417 13 L1411 18 L1405 13
+            L1399 16 L1393 12 L1387 18
+            L1381 13 L1375 17 L1369 12
+            L1363 16 L1357 13 L1351 18
+            L1345 12 L1339 16 L1333 13
+            L1327 18 L1321 12 L1315 16
+            L1309 13 L1303 18 L1297 12
+            L1291 16 L1285 13 L1279 18
+            L1273 12 L1267 16 L1261 13
+            L1255 18 L1249 12 L1243 16
+            L1237 13 L1231 18 L1225 12
+            L1219 16 L1213 13 L1207 18
+            L1201 12 L1195 16 L1189 13
+            L1183 18 L1177 12 L1171 16
+            L1165 13 L1159 18 L1153 12
+            L1147 16 L1141 13 L1135 18
+            L1129 12 L1123 16 L1117 13
+            L1111 18 L1105 12 L1099 16
+            L1093 13 L1087 18 L1081 12
+            L1075 16 L1069 13 L1063 18
+            L1057 12 L1051 16 L1045 13
+            L1039 18 L1033 12 L1027 16
+            L1021 13 L1015 18 L1009 12
+            L1003 16 L997 13 L991 18
+            L985 12 L979 16 L973 13
+            L967 18 L961 12 L955 16
+            L949 13 L943 18 L937 12
+            L931 16 L925 13 L919 18
+            L913 12 L907 16 L901 13
+            L895 18 L889 12 L883 16
+            L877 13 L871 18 L865 12
+            L859 16 L853 13 L847 18
+            L841 12 L835 16 L829 13
+            L823 18 L817 12 L811 16
+            L805 13 L799 18 L793 12
+            L787 16 L781 13 L775 18
+            L769 12 L763 16 L757 13
+            L751 18 L745 12 L739 16
+            L733 13 L727 18 L721 12
+            L715 16 L709 13 L703 18
+            L697 12 L691 16 L685 13
+            L679 18 L673 12 L667 16
+            L661 13 L655 18 L649 12
+            L643 16 L637 13 L631 18
+            L625 12 L619 16 L613 13
+            L607 18 L601 12 L595 16
+            L589 13 L583 18 L577 12
+            L571 16 L565 13 L559 18
+            L553 12 L547 16 L541 13
+            L535 18 L529 12 L523 16
+            L517 13 L511 18 L505 12
+            L499 16 L493 13 L487 18
+            L481 12 L475 16 L469 13
+            L463 18 L457 12 L451 16
+            L445 13 L439 18 L433 12
+            L427 16 L421 13 L415 18
+            L409 12 L403 16 L397 13
+            L391 18 L385 12 L379 16
+            L373 13 L367 18 L361 12
+            L355 16 L349 13 L343 18
+            L337 12 L331 16 L325 13
+            L319 18 L313 12 L307 16
+            L301 13 L295 18 L289 12
+            L283 16 L277 13 L271 18
+            L265 12 L259 16 L253 13
+            L247 18 L241 12 L235 16
+            L229 13 L223 18 L217 12
+            L211 16 L205 13 L199 18
+            L193 12 L187 16 L181 13
+            L175 18 L169 12 L163 16
+            L157 13 L151 18 L145 12
+            L139 16 L133 13 L127 18
+            L121 12 L115 16 L109 13
+            L103 18 L97 12 L91 16
+            L85 13 L79 18 L73 12
+            L67 16 L61 13 L55 18
+            L49 12 L43 16 L37 13
+            L31 18 L25 12 L19 16
+            L13 13 L7 18 L0 13 Z"
+            fill="#ffffff"/>
+    </svg>
+</div>
+
+    <footer class="footer">
+
+        <div class="footer-inner">
+
+            <div>
+               <a href="INDEX.HTML" class="footer-logo">
+    <img src="IMAGES/BGLOGO.png"
+         alt="Divine Technologies Logo">
+</a>
+                <p>
+                    Billing machines, POS systems and business
+                    management solutions.
+                </p>
+            </div>
+
+            <div>
+                <h4>Quick Links</h4>
+                <a href="INDEX.HTML">Home</a>
+                <a href="SHOP.HTML">Shop</a>
+                <a href="ABOUT.HTML">About Us</a>
+                <a href="CONTACT.HTML">Contact</a>
+            </div>
+
+            <div>
+                <h4>Contact Us</h4>
+                <p>Thalassery, Kannur, Kerala</p>
+                <p>+91 9947 123 456</p>
+                <p>info@divinetech.co.in</p>
+            </div>
+
+        </div>
+
+        <div class="footer-bottom">
+            © <span id="year"></span> Divine Technologies. All Rights Reserved.
+        </div>
+
+    </footer>
+
+
+    <script src="SCRIPT.JS"></script>
+
+</body>
+</html>

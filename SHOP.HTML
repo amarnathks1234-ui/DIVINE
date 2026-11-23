@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Browse Divine Technologies billing machines, POS systems and business solutions.">
+    <title>Product Catalogue | Divine Technologies</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="brand-panel">
+            <a href="INDEX.HTML"><img src="IMAGES/LOGO.jpg" alt="Divine Technologies Logo"></a>
+        </div>
+        <div class="header-content">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+                <i data-lucide="menu"></i>
+            </button>
+            <nav class="navigation" id="navigation">
+                <a href="INDEX.HTML">Home</a>
+                <a href="SHOP.HTML" class="active">Shop</a>
+                <a href="BUSINESS-SOFTWARE.HTML">Business Software</a>
+                <a href="ABOUT.HTML">About Us</a>
+                <a href="CONTACT.HTML">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <div class="search-box">
+                    <i data-lucide="search"></i>
+                    <input type="search" id="productSearch" placeholder="Search products..." aria-label="Search products">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="catalogue-section">
+        <div class="catalogue-heading">
+            <p class="eyebrow">DIVINE TECHNOLOGIES</p>
+            <h1>Product Catalogue</h1>
+            <p>Browse our products, review the available information, or contact us for details.</p>
+        </div>
+        <div class="product-grid catalogue-grid" data-catalogue-grid aria-live="polite"></div>
+        <p class="catalogue-note">Product information and prices shown here are from the current homepage catalogue. Contact us to confirm current availability and details.</p>
+    </main>
+
+    <div class="floating-contact">
+        <a href="#" class="float-whatsapp" data-whatsapp="Hello Divine Technologies, I would like to know more about your products." aria-label="Chat with Divine Technologies on WhatsApp">
+            <img src="IMAGES/whatsapp.svg" alt="">
+        </a>
+        <a href="tel:+919947123456" aria-label="Call Divine Technologies"><i data-lucide="phone"></i></a>
+        <a href="CONTACT.HTML" aria-label="Contact us"><i data-lucide="message-square"></i></a>
+    </div>
+
+    <div class="receipt-tear" aria-hidden="true">
+        <img src="IMAGES/receipt-tear.svg" alt="">
+    </div>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div>
+                <a href="INDEX.HTML" class="footer-logo"><img src="IMAGES/BGLOGO.png" alt="Divine Technologies Logo"></a>
+                <p>Billing machines, POS systems and business management solutions.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <a href="INDEX.HTML">Home</a>
+                <a href="SHOP.HTML">Shop</a>
+                <a href="ABOUT.HTML">About Us</a>
+                <a href="CONTACT.HTML">Contact</a>
+            </div>
+            <div>
+                <h4>Contact Us</h4>
+                <p>Thalassery, Kannur, Kerala</p>
+                <p>+91 9947 123 456</p>
+                <p>info@divinetech.co.in</p>
+            </div>
+        </div>
+        <div class="footer-bottom">© <span id="year"></span> Divine Technologies. All Rights Reserved.</div>
+    </footer>
+
+    <script src="SCRIPT.JS"></script>
+</body>
+</html>

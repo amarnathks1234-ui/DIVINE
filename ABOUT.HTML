@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="About Divine Technologies and its billing and business software solutions.">
+    <title>About Us | Divine Technologies</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="brand-panel">
+            <a href="INDEX.HTML"><img src="IMAGES/LOGO.jpg" alt="Divine Technologies Logo"></a>
+        </div>
+        <div class="header-content">
+            <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false"><i data-lucide="menu"></i></button>
+            <nav class="navigation" id="navigation">
+                <a href="INDEX.HTML">Home</a>
+                <a href="SHOP.HTML">Shop</a>
+                <a href="BUSINESS-SOFTWARE.HTML">Business Software</a>
+                <a href="ABOUT.HTML" class="active">About Us</a>
+                <a href="CONTACT.HTML">Contact</a>
+            </nav>
+            <div class="header-actions">
+                <div class="search-box">
+                    <i data-lucide="search"></i>
+                    <input type="search" id="productSearch" placeholder="Search products..." aria-label="Search products">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="about-page">
+        <section class="about-introduction" data-about-reveal>
+            <div class="about-introduction-copy">
+                <p class="eyebrow">ABOUT US</p>
+                <h1>Smart billing solutions <span>since 2012.</span></h1>
+                <p>Divine Technologies is a leading billing machine dealer and service provider in Kerala. Established in 2012, our dedicated team supplies quality billing machines and embedded systems-based IT solutions designed for accurate, long-lasting and cost-effective operations.</p>
+                <a href="#company-mission" class="button primary-button">More Info</a>
+            </div>
+            <div class="about-introduction-media">
+                <figure class="about-main-image">
+                    <img src="IMAGES/about-divine.jpg" alt="Divine Technologies office">
+                </figure>
+                <figure class="about-overlap-image">
+                    <img src="IMAGES/divine-technologies-building.png" alt="Divine Technologies building">
+                </figure>
+            </div>
+        </section>
+
+        <section class="about-highlights" aria-label="Company highlights">
+            <article class="about-highlight-card" data-about-reveal>
+                <div class="about-highlight-icon"><i data-lucide="printer"></i></div>
+                <div>
+                    <h2>Reliable Billing Equipment</h2>
+                    <p>Quality handheld, desktop and POS machines selected for accurate and dependable everyday billing.</p>
+                </div>
+            </article>
+            <article class="about-highlight-card" data-about-reveal>
+                <div class="about-highlight-icon"><i data-lucide="settings"></i></div>
+                <div>
+                    <h2>IT & Embedded Solutions</h2>
+                    <p>Purpose-built technology solutions combining hardware, software and practical business workflows.</p>
+                </div>
+            </article>
+            <article class="about-highlight-card" data-about-reveal>
+                <div class="about-highlight-icon"><i data-lucide="headphones"></i></div>
+                <div>
+                    <h2>Service & Product Support</h2>
+                    <p>Responsive customer support for billing equipment, business software and ongoing operational needs.</p>
+                </div>
+            </article>
+        </section>
+
+        <section class="about-mission" id="company-mission" data-about-reveal>
+            <div class="about-mission-copy">
+                <p class="eyebrow">OUR COMMITMENT</p>
+                <h2>Quality, innovation and <span>customer satisfaction.</span></h2>
+                <p>Since 2012, Divine Technologies has supported businesses across Kannur, Kozhikode and Kasaragod with billing machines and complete handheld billing applications.</p>
+                <p>Our solutions serve sectors including micro finance, cable TV rentals, chit funds, pigmy collections, bus ticketing, retail, hotels, petrol billing, temple tokens, vehicle parking, toll gates and finance billing.</p>
+            </div>
+            <figure class="about-mission-media">
+                <img src="IMAGES/divine-technologies-office-product.png" alt="Divine Technologies thermal product rolls in the office">
+            </figure>
+        </section>
+
+        <section class="about-group-head" data-about-reveal>
+            <div class="about-group-head-heading">
+                <p class="eyebrow">LEADERSHIP</p>
+                <h2>Group Head</h2>
+            </div>
+            <article class="about-profile-card">
+                <div class="about-profile-photo">
+                    <img src="IMAGES/group-head.png" alt="Portrait of the Group Head">
+                </div>
+                <div class="about-profile-copy">
+                    <p class="eyebrow">DIVINE TECHNOLOGIES</p>
+                    <h3>Leadership &amp; Vision</h3>
+                    <p>Leading the company with a commitment to reliable technology, practical solutions and customer-focused service across Kerala.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <div class="floating-contact">
+        <a href="#" class="float-whatsapp" data-whatsapp="Hello Divine Technologies." aria-label="Chat with Divine Technologies on WhatsApp"><img src="IMAGES/whatsapp.svg" alt=""></a>
+        <a href="tel:+919947123456" aria-label="Call Divine Technologies"><i data-lucide="phone"></i></a>
+        <a href="CONTACT.HTML" aria-label="Contact us"><i data-lucide="message-square"></i></a>
+    </div>
+
+    <div class="receipt-tear" aria-hidden="true">
+        <img src="IMAGES/receipt-tear.svg" alt="">
+    </div>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div><a href="INDEX.HTML" class="footer-logo"><img src="IMAGES/BGLOGO.png" alt="Divine Technologies Logo"></a><p>Billing machines, POS systems and business management solutions.</p></div>
+            <div><h4>Quick Links</h4><a href="INDEX.HTML">Home</a><a href="SHOP.HTML">Shop</a><a href="ABOUT.HTML">About Us</a><a href="CONTACT.HTML">Contact</a></div>
+            <div><h4>Contact Us</h4><p>Thalassery, Kannur, Kerala</p><p>+91 9947 123 456</p><p>info@divinetech.co.in</p></div>
+        </div>
+        <div class="footer-bottom">© <span id="year"></span> Divine Technologies. All Rights Reserved.</div>
+    </footer>
+    <script src="SCRIPT.JS"></script>
+</body>
+</html>
