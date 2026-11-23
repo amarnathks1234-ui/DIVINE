@@ -2475,6 +2475,47 @@ img {
     vertical-align: middle;
 }
 
+.contact-social-icons {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    margin-top: 7px;
+}
+
+.contact-social-icon {
+    width: 32px;
+    height: 32px;
+    display: grid;
+    place-items: center;
+    border-radius: 50%;
+    background: #111;
+    color: #fff;
+}
+
+.contact-social-icon svg {
+    width: 17px;
+    height: 17px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 1.8;
+}
+
+.contact-social-icon:nth-child(2) svg,
+.contact-social-icon:nth-child(3) svg {
+    fill: currentColor;
+    stroke: none;
+}
+
+.contact-social-icon .contact-social-dot {
+    fill: currentColor;
+    stroke: none;
+}
+
+.contact-social-icon .contact-social-play {
+    fill: #111;
+    stroke: none;
+}
+
 .contact-form {
     display: grid;
     gap: 19px;
