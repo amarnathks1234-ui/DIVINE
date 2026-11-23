@@ -1,2 +1,2 @@
 # DIVINE
-website
+website : https://amarnathks1234-ui.github.io/DIVINE/INDEX.HTML
